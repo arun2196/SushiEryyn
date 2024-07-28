@@ -1,0 +1,43 @@
+Languages
+Java - Backend development with Spring Boot.
+JavaScript - For frontend development with React and adding interactivity.
+HTML - Markup language for the structure of web pages.
+CSS - Styling the web pages, including layout and responsiveness.
+Backend Frameworks and Libraries
+Spring Boot - Backend RESTful APIs and application logic.
+Spring Security - Authentication and authorization.
+Spring Data JPA - Database operations abstraction.
+JWT (JSON Web Tokens) - For secure user authentication.
+Frontend Technologies
+React - JavaScript library for building the user interface.
+React Router - For client-side routing.
+Redux or Context API (Optional) - State management.
+Axios or Fetch API - For making HTTP requests to the backend.
+Styling and UI Libraries
+CSS Modules or Styled Components - For component-specific styling.
+Material-UI, Bootstrap, or Tailwind CSS (Optional) - For pre-designed UI components and layout utilities.
+Build Tools and Bundlers
+Webpack - Module bundler for React.
+Babel - JavaScript compiler that converts ES6+ code into backward-compatible versions.
+Databases
+H2 Database - In-memory database for development.
+MySQL - Production-grade relational database.
+Development Tools
+IntelliJ IDEA - IDE for backend development.
+Visual Studio Code - IDE for frontend development with React.
+Git - Version control system.
+GitHub - Repository hosting and collaboration.
+Postman or Insomnia - API testing tools.
+Testing Frameworks
+JUnit and Mockito - For testing Java backend.
+Jest and React Testing Library - For testing React components.
+Deployment and Hosting
+Heroku, AWS, Netlify, or Vercel - Platforms for deploying the backend and frontend.
+Other Tools and Technologies
+Docker (Optional) - Containerization.
+Swagger or OpenAPI - API documentation.
+Figma or Adobe XD - UI/UX design tools.
+Learning Resources
+React Documentation - Official React documentation.
+Spring Boot Documentation - Official Spring documentation.
+Online Courses - Platforms like Udemy, Coursera, Pluralsight for learning React, Spring Boot, and related technologies.
