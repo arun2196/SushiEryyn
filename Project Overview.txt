@@ -1,1 +1,46 @@
-
+Backend Components
+1. User Registration and Authentication
+User Model: Define a User entity with fields for username, phone number, address, and password.
+Password Security: Use hashing algorithms (e.g., BCrypt) to securely store passwords.
+Registration & Login: Create endpoints for user registration and login, ensuring secure transmission and storage of user credentials.
+2. Sushi Inventory Management
+Sushi Model: Define a Sushi entity with fields for name, type, price, and description.
+CRUD Operations: Implement Create, Read, Update, Delete (CRUD) operations for managing the sushi items in the database.
+3. Order Management
+Order Model: Define an Order entity with fields for Order ID, Customer ID, Order Status, and a list of items.
+Order Processing: Implement logic for creating, updating, and retrieving orders.
+4. Security Considerations
+Authentication: Implement JWT or session-based authentication for user sessions.
+Authorization: Ensure only registered users can access the shop and make purchases.
+Frontend Interfaces
+1. Homepage
+Design: Create a visually appealing homepage with the shop's branding, sushi images, and information.
+User Actions: Include buttons for Sign in and Sign up, leading to respective forms.
+2. Shop
+Navigation Bar: Provide navigation options for accessing the Cart and Logout.
+Product Display: Show sushi items with images, names, descriptions, and prices.
+Cart Interaction: Allow users to add items to the cart.
+3. Cart
+Cart Display: List all items in the cart with quantities and prices.
+Modify Cart: Provide options to remove items or change quantities.
+Checkout: Include a button to confirm the purchase and place the order.
+4. Staff View
+Order Monitoring: Display a list of all orders with details like Order ID, Items, Total, Customer ID, and Order Status.
+Filter Orders: Allow staff to filter and view only incomplete orders.
+Additional Considerations
+Scalability & Future Enhancements
+Discount Functionality: Design the database and application logic to easily incorporate discounts in the future.
+Admin Features: Consider adding administrative features for managing users, orders, and inventory.
+Tech Stack & Tools
+Backend: Java Spring Boot for RESTful APIs, Spring Security for authentication, JPA/Hibernate for ORM.
+Database: H2 for development, with the potential to switch to MySQL for production.
+Frontend: HTML, CSS, JavaScript, and possibly a frontend framework like React for dynamic content.
+Testing: JUnit for unit tests, Postman for API testing.
+Version Control: Git for version control, with a GitHub repository for collaboration and code management.
+Next Steps
+Database Schema Design: Start by designing the database schema for the User, Sushi, and Order entities.
+Set Up Development Environment: Set up your Java Spring Boot project, database, and version control.
+Develop Authentication & User Management: Implement user registration and login functionality.
+Develop Sushi Management: Create the API endpoints and database interactions for managing sushi items.
+Build Frontend Interfaces: Start with the homepage and gradually develop the Shop, Cart, and Staff View.
+Let me know if you want to dive into any specific aspect, such as setting up the database schema, designing the frontend, or implementing security features!
