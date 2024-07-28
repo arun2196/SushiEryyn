@@ -1,0 +1,34 @@
+Project requirements.
+
+1. A user needs to be Registered to be able to buy Sushi
+
+Sign up will require Username, User phone number, User address, Password. These Passwords are to be saved securely.
+
+2. The shop has selection of Nigiri
+
+Makizushi - Rolled Sushi
+Chirashizushi - "Scattered" Sushi
+Inarizushi - "Fried" Sushi
+Temarizushi - "Hand Ball" Sushi
+Gunkan Maki - "Battleship" Sushi
+Narezushi - Fermented Sushi
+Oshizushi - Pressed Sushi
+Sasazushi - Bamboo Leaf Sushi
+
+these items are stored in a database along with price and description. It should be possible to add new items and update prices.
+
+
+Frontend:
+
+there are 4 interfaces:
+
+1. Homepage, a beautiful looking page where shop is advertised and has option to Sign in and Sign up.
+once the user is signed in they can access the Shop.
+2. Shop: There is a Navigation bar with option of viewing Cart, Logout.
+Shop page shows all the Sushi's and images for each one of them, Items can added to cart and purchased from there.
+3. Cart: cart has list of all the Sushis. User have the option to remove option from cart items can be removed. There is button to Confirm Purchase.
+4. Staff view: This will help Staff to monitor all the orders. the view will option to see all the information regarding the order. 
+Order ID, Items, Total, Customner ID, Order Status (Complete/incomplete).
+Staff will have only view only incomplete orders.
+
+There is no discount Functionality for now. But the application should be able to implement it later.
